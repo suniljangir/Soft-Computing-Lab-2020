@@ -1,0 +1,61 @@
+# Program to show all python operators
+a = int(input())
+b = int(input())
+
+# Arithmetic Operators
+
+add = a+b #addition
+print(add)
+sub = a-b #subtraction
+print(sub)
+mul = a*b #multiplication
+print(mul)
+d1 = a/b #division(float)
+print(d1)
+d2 = a//b #division(floor)
+print(d2)
+po = a**b #power
+print(po)
+mo = a%b #modulo
+print(mo)
+
+# Logical Operators
+
+x = True
+y = False
+print(x and y) #logical and
+print(x or y) # logical or
+print(not x) #logical not
+
+# Relational Operators
+
+print(a>b) #greater than
+print(a<b) #less than
+print(a==b) #equal to
+print(a!=b) #not equal to
+print(a>=b) #greater than or equal to
+print(a<=b) #less than or equal to
+
+# Bitwise Operators
+
+print(a&b) #Bitwise And
+print(a|b) #Bitwise Or
+print(~a) #Bitwise Not
+print(a^b) #Bitwise XOR
+print(a>>b) #Bitwise right shift
+print(a<<b) #Bitwise left shift
+
+# Identity Operators
+
+m = 7
+n = 7
+c = 'programming'
+d = 'programming'
+print(m is not n) #is not
+print(c is d) #is
+
+# Membership Operators
+
+p = 'coding'
+print('d' in p) #in
+print('sh' not in p) #not in
