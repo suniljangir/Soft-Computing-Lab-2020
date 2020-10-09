@@ -1,1 +1,1 @@
-This is repo contains my Soft Computing Laboratory Tasks.
+This repository contains my Soft Computing Laboratory Tasks.
