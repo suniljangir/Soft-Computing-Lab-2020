@@ -1,0 +1,131 @@
+#ASSIGNMENT OPERATORS
+a=7
+b=4
+c=9
+print("Assignment Operations")
+c=a+b
+print(c)
+c += a   
+print(c)
+c *= a   
+print(c)
+c /= a   
+print(c)
+c //= a 
+print(c)
+c = 2
+c %= a  
+print(c)
+c *= a  
+print(c)
+
+#ARITHMETIC OPERATORS
+x=12
+y=4
+print("Arithmetic Operations")
+print(x+y)
+print(x-y)
+print(x*y)
+print(x/y)    
+print(x//y)   
+print(x%y)  
+print(x**y) 
+
+#BITWISE OPERATOR
+a = 10
+b = 4
+print("Bitwise Operations")
+print(a & b) 
+print(a | b)   
+print(~a) 
+print(a ^ b) 
+print(a >> 2) 
+print(a << 2) 
+
+#LOGICAL OPERATORS
+a = True
+b = False 
+print("Logical Operations")
+print(a and b) 
+print(a or b) 
+print(not a) 
+
+#RELATIONAL OPERATORS
+x=5
+y=10
+print("Relational Operations")
+print(x>y)
+print(x<y)
+print(x==y)
+print(x!=y)
+print(x>=y)
+print(x<=y)
+     
+
+
+#SPECIAL OPERATORS
+a1 = 3
+b1 = 3
+a2 = 'Sky'
+b2 = 'Pink'
+a3 = [1,2,3] 
+b3 = [1,2,3] 
+  
+print("Identity Operators")  
+print(a1 is not b1) 
+  
+  
+print(a2 is b2) 
+  
+# Output is False, since lists are mutable. 
+print(a3 is b3)   
+
+def Membership(x):
+    print("Membership Operator")
+    print('A'not in x)
+    print("red" in x)
+Membership("Applesarered")
+
+OUTPUT:
+Assignment Operations
+11
+18
+126
+18.0
+2.0
+2
+14
+Arithmetic Operations
+16
+8
+48
+3.0
+3
+0
+20736
+Bitwise Operations
+0
+14
+-11
+14
+2
+40
+Logical Operations
+False
+True
+False
+Relational Operations
+False
+True
+False
+True
+False
+True
+Identity Operators
+False
+False
+False
+Membership Operator
+False
+True
+​

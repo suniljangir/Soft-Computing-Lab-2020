@@ -1,0 +1,56 @@
+PYTHON LIBRARIES
+
+1. TensorFlow
+TensorFlow is an AI library that helps developers to create large-scale neural networks with many layers using data flow graphs. TensorFlow also facilitates the building of Deep Learning models, and allow easy deploy of ML-powered applications. TensorFlow is quite efficient when it comes to classification, perception, understanding, discovering, predicting, and creating data. Tensor flow can be installed using pip: pip install –upgrade tensor flow.
+Uses
+1.	Voice/Sound Recognition — IoT, Automotive, Security.
+2.	Sentiment Analysis.
+3.	Text-Based Apps — Threat Detection, Google Translate, Gmail smart reply.
+4.	Face Recognition — Facebook’s Deep Face, Photo tagging, Smart Unlock.
+5.	Time Series — Recommendation from Amazon, Google, and Netflix.
+6.	Video Detection — Motion Detection, Real-Time Threat Detection in Gaming, Security, Airports.
+
+2. Matplotlib
+Matplotlib is the plotting library for Python that provides an object-oriented API for embedding plots into applications. It is a close resemblance to MATLAB embedded in Python programming language. It is another library from the SciPy Stack which plots 2D figures. Matplotlib can be installed using pip: -m pip install –U matplotlib.
+Uses:
+Histogram, bar plots, scatter plots, area plot to pie plot, Matplotlib can depict a wide range of visualizations.
+ 1.  Line plots
+  2.  Scatter plots
+  3.  Area plots
+  4. Bar charts and Histograms
+  5. Pie charts
+  6. Contour plots
+
+3. NumPy 
+NumPy is the essential package for scientific and mathematical computing in Python. It introduces n-dimensional arrays and matrices, which are necessary when performing sophisticated mathematical operations. It contains functions that perform basic operations on arrays, such as sorting, shaping, and other mathematical matrix operations. To install numpy first check the version of python. To check version run :  python 2/3 –V.Now install the library by running: pip install numpy
+  Uses:
+ 1. Basic array operations: add, multiply, slice, flatten, and reshape index arrays.
+ 2.  Advanced array operations: stack arrays, split into sections, broadcast arrays.
+ 3. Work with Date Time or Linear Algebra.
+ 4. Basic Slicing and Advanced Indexing in NumPy Python.
+
+4. Pandas
+Pandas is an open-source Python package that provides high-performance, easy-to-use data structures and data analysis tools for the labeled data in Python programming language. Pandas stand for Python Data Analysis Library. 
+It is designed for quick and easy data manipulation, reading, aggregation, and visualization.
+Pandas take data in a CSV or TSV file or a SQL database and create a Python object with rows and columns called a data frame. Pandas can be installed by using pip: pip install pandas.
+Uses:
+
+  1. Indexing, manipulating, renaming, sorting, merging data frame.
+   2. Update, Add, Delete columns from a data frame.
+   3. Impute missing files, handle missing data.
+   4. Plot data with histogram or box plot.
+
+
+5. SciPy
+The SciPy library is one of the core packages that make up the SciPy stack.  There is a difference between SciPy Stack and SciPy, the library. SciPy builds on the NumPy array object and is part of the stack which includes tools like Matplotlib, Pandas, and SymPy with additional tools,
+SciPy library contains modules for efficient mathematical routines as linear algebra, interpolation, optimization, integration, and statistics. The main functionality of the SciPy library is built upon NumPy and its arrays. SciPy makes significant use of Numpy. Scipy can be installed using pip: pip install Scipy.
+Uses:
+SciPy uses arrays as its basic data structure. It has various modules to perform common scientific programming tasks as linear algebra, integration, calculus, ordinary differential equations, and signal processing.
+6. Keras
+Keras is Tensor Flow’s high-level API for building and training Deep Neural Network code. It is an open-source neural network library in Python. With Keras, statistical modeling, working with images and text is a lot easier with simplified coding for deep learning.
+Keras is a neural network Python library and provides only high-level APIs. Keras is built for Python which makes it way more user-friendly, modular and composable than TensorFlow. Keras depends on the following python libraries: Numpy, Pandas, Scikit -learn, Matplotlib, Scipy,Seaborn.After these libraries are installed we can install keras by using pip: pip install keras
+Uses:
+1.	Determine percentage accuracy.
+2.	Compute loss function.
+3.	Create custom function layers.
+4.	Built-in data and image processing.
