@@ -1,0 +1,243 @@
+1.TensorFlow
+What Is TensorFlow?
+If you are currently working on a machine learning project in Python, then you may have heard about this popular open source library known as TensorFlow.
+This library was developed by Google in collaboration with Brain Team. TensorFlow is a part of almost every Google application for machine learning.
+TensorFlow works like a computational library for writing new algorithms that involve a large number of tensor operations, since neural networks can be easily expressed as computational graphs they can be implemented using TensorFlow as a series of operations on Tensors. Plus, tensors are N-dimensional matrices which represent your data.
+Features of TensorFlow
+TensorFlow is optimized for speed, it makes use of techniques like XLA for quick linear algebra operations.
+1. Responsive Construct
+With TensorFlow, we can easily visualize each and every part of the graph which is not an option while using Numpy or SciKit.
+2. Flexible
+One of the very important Tensorflow Features is that it is flexible in its operability, meaning it has modularity and the parts of it which you want to make standalone, it offers you that option.
+3. Easily Trainable
+It is easily trainable on CPU as well as GPU for distributed computing.
+4. Parallel Neural Network Training
+TensorFlow offers pipelining in the sense that you can train multiple neural networksand multiple GPUs which makes the models very efficient on large-scale systems.
+5. Large Community
+Needless to say, if it has been developed by Google, there already is a large team of software engineers who work on stability improvements continuously.
+6. Open Source
+The best thing about this machine learning library is that it is open source so anyone can use it as long as they have internet connectivity.
+Uses of TensorFlow?
+You are using TensorFlow daily but indirectly with applications like Google Voice Search or Google Photos. These are the  applications of TensorFlow.
+All the libraries created in TensorFlow are written in C and C++. However, it has a complicated front-end for Python. Your Python code will get compiled and then executed on TensorFlow distributed execution engine built using C and C++.
+The number of applications of TensorFlow is literally unlimited and that is the beauty of TensorFlow.
+Installation:
+Install the 64bit version of Python 3, for instance from https://www.python.org.
+Then run:
+ pip3 install --upgrade tensorflow
+
+2.Scikit-learn
+What Is Scikit-learn?
+It is a Python library is associated with NumPy and SciPy. It is considered as one of the best libraries for working with complex data.
+There are a lot of changes being made in this library. One modification is the cross-validation feature, providing the ability to use more than one metric. Lots of training methods like logistics regression and nearest neighbors have received some little improvements.
+Features Of Scikit-Learn
+1. Cross-validation: There are various methods to check the accuracy of supervised models on unseen data.
+2. Unsupervised learning algorithms: Again there is a large spread of algorithms in the offering – starting from clustering, factor analysis, principal component analysis to unsupervised neural networks.
+3. Feature extraction: Useful for extracting features from images and text (e.g. Bag of words) 
+
+Where are we using Scikit-Learn?
+It contains a numerous number of algorithms for implementing standard machine learning and data mining tasks like reducing dimensionality, classification, regression, clustering, and model selection.
+Installation:
+Install the 64bit version of Python 3, for instance from https://www.python.org.
+Then run:
+$ pip install -U scikit-learn
+In order to check your installation you can use
+$ python -m pip show scikit-learn # to see which version and where scikit-learn is $ installedpython -m pip freeze # to see all packages installed in the active 
+$ virtualenvpython -c "import sklearn; sklearn.show_versions()"
+
+3. Numpy
+What Is Numpy?
+Numpy is considered as one of the most popular machine learning library in Python.
+TensorFlow and other libraries uses Numpy internally for performing multiple operations on Tensors. Array interface is the best and the most important feature of Numpy.
+Features Of Numpy
+1.	Interactive: Numpy is very interactive and easy to use.
+2.	Mathematics: Makes complex mathematical implementations very simple.
+3.	Intuitive: Makes coding real easy and grasping the concepts is easy.
+4.	Lot of Interaction: Widely used, hence a lot of open source contribution.
+Uses of Numpy?
+This interface can be utilized for expressing images, sound waves, and other binary raw streams as an array of real numbers in N-dimensional.
+For implementing this library for machine learning having knowledge of Numpy is important for full stack developers.
+Installation:
+Install the 64bit version of Python 3, for instance from https://www.python.org.
+Then run:
+$ pip install numpy
+ 
+4. Keras 
+What Is Keras?
+Keras is considered as one of the coolest machine learning libraries in Python. It provides an easier mechanism to express neural networks. Keras also provides some of the best utilities for compiling models, processing data-sets, visualization of graphs, and much more.
+In the backend, Keras uses either Theano or TensorFlow internally. Some of the most popular neural networks like CNTK can also be used. Keras is comparatively slow when we compare it with other machine learning libraries. Because it creates a computational graph by using back-end infrastructure and then makes use of it to perform operations. All the models in Keras are portable.
+Features Of Keras
+•	It runs smoothly on both CPU and GPU.
+•	Keras supports almost all the models of a neural network – fully connected, convolutional, pooling, recurrent, embedding, etc. Furthermore, these models can be combined to build more complex models.
+•	Keras, being modular in nature,  is incredibly expressive, flexible, and apt for innovative research.
+•	Keras is a completely Python-based framework, which makes it easy to debug and explore.
+Where are we using Keras?
+You are already constantly interacting with features built with Keras — it is in use at Netflix, Uber, Yelp, Instacart, Zocdoc, Square, and many others. It is especially popular among startups that place deep learning at the core of their products.
+Keras contains numerous implementations of commonly used neural network building blocks such as layers, objectives, activation functions, optimizers and a host of tools to make working with image and text data easier. 
+Plus, it provides many pre-processed data-sets and pre-trained models like MNIST, VGG, Inception, SqueezeNet, ResNet etc.
+Keras is also a favorite among deep learning researchers, coming in at #2. Keras has also been adopted by researchers at large scientific organizations, in partic,ular CERN and NASA.
+Installation:
+Install the 64bit version of Python 3, for instance from https://www.python.org.
+Then run:
+pip install Keras
+
+5. PyTorch
+What Is PyTorch?
+PyTorch is the largest machine learning library that allow developers to perform tensor computations wan ith acceleration of GPU, creates dynamic computational graphs, and calculate gradients automatically. Other than this, PyTorch offers rich APIs for solving application issues related to neural networks.
+This machine learning library is based on Torch, which is an open source machine library implemented in C with a wrapper in Lua.
+This machine library in Python was introduced in 2017, and since its inception, the library is gaining popularity and attracting an increasing number of machine learning developers.
+Features Of PyTorch
+Hybrid Front-End
+A new hybrid front-end provides ease-of-use and flexibility in eager mode, while seamlessly transitioning to graph mode for speed, optimization, and functionality in C++ runtime environments.
+Distributed Training
+Optimize performance in both research and production by taking advantage of native support for asynchronous execution of collective operations and peer-to-peer communication that is accessible from Python and C++.
+Python First
+PyTorch is not a Python binding into a monolithic C++ framework. It’s built to be deeply integrated into Python so it can be used with popular libraries and packages such as Cython and Numba.
+Libraries And Tools
+An active community of researchers and developers have built a rich ecosystem of tools and libraries for extending PyTorch and supporting development in areas from computer vision to reinforcement learning.
+Applications of PyTorch?
+PyTorch is primarily used for applications such as natural language processing.
+It is primarily developed by Facebook’s artificial-intelligence research group and Uber’s “Pyro” software for probabilistic programming is built on it.
+PyTorch is outperforming TensorFlow in multiple ways and it is gaining a lot of attention in the recent days.
+Installation:
+Install the 64bit version of Python 3, for instance from https://www.python.org.
+Then run:
+pip install numpy
+pip install --pre torch torchvision -f https://download.pytorch.org/whl/nightly/cpu/torch_nightly.html
+
+6.LightGBM
+What Is LightGBM?
+Gradient Boosting is one of the best and most popular machine learning library, which helps developers in building new algorithms by using redefined elementary models and namely decision trees. Therefore, there are special libraries which are available for fast and efficient implementation of this method.
+These libraries are LightGBM, XGBoost, and CatBoost. All these libraries are competitors that helps in solving a common problem and can be utilized in almost the similar manner.
+Features of LightGBM
+Very fast computation ensures high production efficiency.
+Intuitive, hence makes it user friendly.
+Faster training than many other deep learning libraries.
+Will not produce errors when you consider NaN values and other canonical values.
+What are the applications of LightGBM?
+These library provides provide highly scalable, optimized, and fast implementations of gradient boosting, which makes it popular among machine learning developers. Because most of the machine learning full stack developers won machine learning competitions by using these algorithms.
+Installation:
+Install the 64bit version of Python 3, for instance from https://www.python.org.
+Then run:
+pip install lightgbm1.TensorFlow
+What Is TensorFlow?
+If you are currently working on a machine learning project in Python, then you may have heard about this popular open source library known as TensorFlow.
+This library was developed by Google in collaboration with Brain Team. TensorFlow is a part of almost every Google application for machine learning.
+TensorFlow works like a computational library for writing new algorithms that involve a large number of tensor operations, since neural networks can be easily expressed as computational graphs they can be implemented using TensorFlow as a series of operations on Tensors. Plus, tensors are N-dimensional matrices which represent your data.
+Features of TensorFlow
+TensorFlow is optimized for speed, it makes use of techniques like XLA for quick linear algebra operations.
+1. Responsive Construct
+With TensorFlow, we can easily visualize each and every part of the graph which is not an option while using Numpy or SciKit.
+2. Flexible
+One of the very important Tensorflow Features is that it is flexible in its operability, meaning it has modularity and the parts of it which you want to make standalone, it offers you that option.
+3. Easily Trainable
+It is easily trainable on CPU as well as GPU for distributed computing.
+4. Parallel Neural Network Training
+TensorFlow offers pipelining in the sense that you can train multiple neural networksand multiple GPUs which makes the models very efficient on large-scale systems.
+5. Large Community
+Needless to say, if it has been developed by Google, there already is a large team of software engineers who work on stability improvements continuously.
+6. Open Source
+The best thing about this machine learning library is that it is open source so anyone can use it as long as they have internet connectivity.
+Uses of TensorFlow?
+You are using TensorFlow daily but indirectly with applications like Google Voice Search or Google Photos. These are the  applications of TensorFlow.
+All the libraries created in TensorFlow are written in C and C++. However, it has a complicated front-end for Python. Your Python code will get compiled and then executed on TensorFlow distributed execution engine built using C and C++.
+The number of applications of TensorFlow is literally unlimited and that is the beauty of TensorFlow.
+Installation:
+Install the 64bit version of Python 3, for instance from https://www.python.org.
+Then run:
+ pip3 install --upgrade tensorflow
+
+2.Scikit-learn
+What Is Scikit-learn?
+It is a Python library is associated with NumPy and SciPy. It is considered as one of the best libraries for working with complex data.
+There are a lot of changes being made in this library. One modification is the cross-validation feature, providing the ability to use more than one metric. Lots of training methods like logistics regression and nearest neighbors have received some little improvements.
+Features Of Scikit-Learn
+1. Cross-validation: There are various methods to check the accuracy of supervised models on unseen data.
+2. Unsupervised learning algorithms: Again there is a large spread of algorithms in the offering – starting from clustering, factor analysis, principal component analysis to unsupervised neural networks.
+3. Feature extraction: Useful for extracting features from images and text (e.g. Bag of words) 
+
+Where are we using Scikit-Learn?
+It contains a numerous number of algorithms for implementing standard machine learning and data mining tasks like reducing dimensionality, classification, regression, clustering, and model selection.
+Installation:
+Install the 64bit version of Python 3, for instance from https://www.python.org.
+Then run:
+$ pip install -U scikit-learn
+In order to check your installation you can use
+$ python -m pip show scikit-learn # to see which version and where scikit-learn is $ installedpython -m pip freeze # to see all packages installed in the active 
+$ virtualenvpython -c "import sklearn; sklearn.show_versions()"
+
+3. Numpy
+What Is Numpy?
+Numpy is considered as one of the most popular machine learning library in Python.
+TensorFlow and other libraries uses Numpy internally for performing multiple operations on Tensors. Array interface is the best and the most important feature of Numpy.
+Features Of Numpy
+1.	Interactive: Numpy is very interactive and easy to use.
+2.	Mathematics: Makes complex mathematical implementations very simple.
+3.	Intuitive: Makes coding real easy and grasping the concepts is easy.
+4.	Lot of Interaction: Widely used, hence a lot of open source contribution.
+Uses of Numpy?
+This interface can be utilized for expressing images, sound waves, and other binary raw streams as an array of real numbers in N-dimensional.
+For implementing this library for machine learning having knowledge of Numpy is important for full stack developers.
+Installation:
+Install the 64bit version of Python 3, for instance from https://www.python.org.
+Then run:
+$ pip install numpy
+ 
+4. Keras 
+What Is Keras?
+Keras is considered as one of the coolest machine learning libraries in Python. It provides an easier mechanism to express neural networks. Keras also provides some of the best utilities for compiling models, processing data-sets, visualization of graphs, and much more.
+In the backend, Keras uses either Theano or TensorFlow internally. Some of the most popular neural networks like CNTK can also be used. Keras is comparatively slow when we compare it with other machine learning libraries. Because it creates a computational graph by using back-end infrastructure and then makes use of it to perform operations. All the models in Keras are portable.
+Features Of Keras
+•	It runs smoothly on both CPU and GPU.
+•	Keras supports almost all the models of a neural network – fully connected, convolutional, pooling, recurrent, embedding, etc. Furthermore, these models can be combined to build more complex models.
+•	Keras, being modular in nature,  is incredibly expressive, flexible, and apt for innovative research.
+•	Keras is a completely Python-based framework, which makes it easy to debug and explore.
+Where are we using Keras?
+You are already constantly interacting with features built with Keras — it is in use at Netflix, Uber, Yelp, Instacart, Zocdoc, Square, and many others. It is especially popular among startups that place deep learning at the core of their products.
+Keras contains numerous implementations of commonly used neural network building blocks such as layers, objectives, activation functions, optimizers and a host of tools to make working with image and text data easier. 
+Plus, it provides many pre-processed data-sets and pre-trained models like MNIST, VGG, Inception, SqueezeNet, ResNet etc.
+Keras is also a favorite among deep learning researchers, coming in at #2. Keras has also been adopted by researchers at large scientific organizations, in partic,ular CERN and NASA.
+Installation:
+Install the 64bit version of Python 3, for instance from https://www.python.org.
+Then run:
+pip install Keras
+
+5. PyTorch
+What Is PyTorch?
+PyTorch is the largest machine learning library that allow developers to perform tensor computations wan ith acceleration of GPU, creates dynamic computational graphs, and calculate gradients automatically. Other than this, PyTorch offers rich APIs for solving application issues related to neural networks.
+This machine learning library is based on Torch, which is an open source machine library implemented in C with a wrapper in Lua.
+This machine library in Python was introduced in 2017, and since its inception, the library is gaining popularity and attracting an increasing number of machine learning developers.
+Features Of PyTorch
+Hybrid Front-End
+A new hybrid front-end provides ease-of-use and flexibility in eager mode, while seamlessly transitioning to graph mode for speed, optimization, and functionality in C++ runtime environments.
+Distributed Training
+Optimize performance in both research and production by taking advantage of native support for asynchronous execution of collective operations and peer-to-peer communication that is accessible from Python and C++.
+Python First
+PyTorch is not a Python binding into a monolithic C++ framework. It’s built to be deeply integrated into Python so it can be used with popular libraries and packages such as Cython and Numba.
+Libraries And Tools
+An active community of researchers and developers have built a rich ecosystem of tools and libraries for extending PyTorch and supporting development in areas from computer vision to reinforcement learning.
+Applications of PyTorch?
+PyTorch is primarily used for applications such as natural language processing.
+It is primarily developed by Facebook’s artificial-intelligence research group and Uber’s “Pyro” software for probabilistic programming is built on it.
+PyTorch is outperforming TensorFlow in multiple ways and it is gaining a lot of attention in the recent days.
+Installation:
+Install the 64bit version of Python 3, for instance from https://www.python.org.
+Then run:
+pip install numpy
+pip install --pre torch torchvision -f https://download.pytorch.org/whl/nightly/cpu/torch_nightly.html
+
+6.LightGBM
+What Is LightGBM?
+Gradient Boosting is one of the best and most popular machine learning library, which helps developers in building new algorithms by using redefined elementary models and namely decision trees. Therefore, there are special libraries which are available for fast and efficient implementation of this method.
+These libraries are LightGBM, XGBoost, and CatBoost. All these libraries are competitors that helps in solving a common problem and can be utilized in almost the similar manner.
+Features of LightGBM
+Very fast computation ensures high production efficiency.
+Intuitive, hence makes it user friendly.
+Faster training than many other deep learning libraries.
+Will not produce errors when you consider NaN values and other canonical values.
+What are the applications of LightGBM?
+These library provides provide highly scalable, optimized, and fast implementations of gradient boosting, which makes it popular among machine learning developers. Because most of the machine learning full stack developers won machine learning competitions by using these algorithms.
+Installation:
+Install the 64bit version of Python 3, for instance from https://www.python.org.
+Then run:
+pip install lightgbm
