@@ -1,0 +1,53 @@
+1. TensorFlow
+TensorFlow is a free and open-source software library for dataflow and differentiable programming across a range of tasks. 
+It is a symbolic math library, and is also used for machine learning applications such as neural networks.
+Uses :
+Created by the Google Brain team, TensorFlow is an open source library for numerical computation and large-scale machine learning. 
+TensorFlow bundles together a slew of machine learning and deep learning (aka neural networking) models and algorithms and makes them useful by way of a common metaphor.
+
+
+2. Matplotlib
+Matplotlib is the plotting library for Python that provides an object-oriented API for embedding plots into applications. 
+It is a close resemblance to MATLAB embedded in Python programming language. It is another library from the SciPy Stack which plots 2D figures. Matplotlib can be installed using pip: -m pip install –U matplotlib.
+Uses : 
+Histogram, bar plots, scatter plots, area plot to pie plot, Matplotlib can depict a wide range of visualizations like line plot, scatter plots, area plots etc.
+
+
+3. NumPy 
+NumPy is the essential package for scientific and mathematical computing in Python. 
+It introduces n-dimensional arrays and matrices, which are necessary when performing sophisticated mathematical operations. 
+It contains functions that perform basic operations on arrays, such as sorting, shaping, and other mathematical matrix operations. 
+To install numpy first check the version of python. To check version run :  python 2/3 –V.Now install the library by running: pip install numpy
+They are faster as they work in c level language.
+  Uses:
+ Basic and advanced array operations with mathematical computations making it faster as it runs in C speed. They can work in n-dimensional array.
+
+
+4. Pandas
+Pandas is an open-source Python package that provides high-performance, easy-to-use data structures and data analysis tools for the labeled data in Python programming language. 
+Pandas stand for Python Data Analysis Library. 
+Generally Pandas work with dataframes.
+It is designed for quick and easy data manipulation, reading, aggregation, and visualization.
+Pandas take data in a CSV or TSV file or a SQL database and create a Python object with rows and columns called a data frame. Pandas can be installed by using pip: pip install pandas.
+Uses:
+Indexing, manipulation, renaming, updation, addyion, deletion of dataframes.
+Imputation of missig  files and handling missing data.
+
+
+5. SciPy
+SciPy builds on the NumPy array object and is part of the stack which includes tools like Matplotlib, Pandas, and SymPy with additional tools,
+SciPy library contains modules for efficient mathematical routines as linear algebra, interpolation, optimization, integration, and statistics. 
+The main functionality of the SciPy library is built upon NumPy and its arrays. SciPy makes significant use of Numpy. 
+Scipy can be installed using pip: pip install Scipy.
+Uses:
+SciPy uses arrays as its basic data structure. 
+It has various modules to perform common scientific programming tasks as linear algebra, integration, calculus, ordinary differential equations, and signal processing.
+
+
+6. Seaborn
+Seaborn is a Python data visualization library based on matplotlib. 
+It provides a high-level interface for drawing attractive and informative statistical graphics.
+Installation can be done using pip install seaborn.
+Uses:
+Seaborn is a library that uses Matplotlib underneath to plot graphs. 
+It will be used to visualize random distributions.
