@@ -1,0 +1,14 @@
+PYTHON LIBRARIES ARE AS FOLLOWS:
+1.	NUMPY:
+Numpy is a popular array – processing package of Python. It provides good support for different dimensional array objects as well as for matrices. Numpy is not only confined to providing arrays only, but it also provides a variety of tools to manage these arrays. It is fast, efficient, and really good for managing matrice and arrays.
+
+2.	REQUEST:
+Requests is a rich Python HTTP library. Released under Apache2.0 license, Requests is focused on making HTTP requests more responsive and user-friendly. This python library is a real blessing for beginners as it allows the use of most common methods of HTTP. You can easily customize, inspect, authorize, and configure HTTP requests using this library.
+3.	TENSER FLOW:
+TensorFlow is a free, open-source python machine learning library. It is very easy to learn and has a handful collection of useful tools. However, it is not limited to machine learning only; you can also use it for dataflow and programs that are differentiable. You can easily get to work with TensorFlow by installing Colab Notebooks in any browser you use.
+4.	FIRE:
+Fire is an open-source python library. It can automatically generate CLIs (command-line interfaces). Even to do so, you will be just needing a few lines of code. Fire is a powerful library that can derive CLIs from literally any python objects. It is used by Google as well to create a command line and different experiment management tools as well.
+5.	ARROW:
+Arrow is a practical python library. It is a friendly library that basically works with dates and times. Arrow comes with a smart API. This API supports many general schemes. It is an interesting library. Beginners with basic knowledge of coding can get pretty well with Arrow.
+6.	FLASH TEXT :
+FlashText is another python library that offers easy search and replacement of words from documents. All FlashText needs is a set of words and string. Then it identifies some words as keywords and replaces them from Text Data. It is a very effective library. People who are struggling with word replacement can choose it with confidence.
