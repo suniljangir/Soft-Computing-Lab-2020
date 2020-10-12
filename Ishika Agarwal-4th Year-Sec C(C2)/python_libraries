@@ -1,0 +1,43 @@
+6 PYTHON LIBRARIES TO EXPLORE!
+1.	Scikit-learn: is an Open Source, free machine learning library, an efficient tool for predictive data analysis.
+It features a wide range of unsupervised and supervised learning algorithms. Accessible to everyone and reusable in many different contexts.
+It is built on two of the basic Python libraries — SciPy and NumPy.
+It has numerous classification, clustering, and regression algorithms available in it like random forests, k-means, and gradient descent. 
+A good choice to work upon Data Analysis and Mining.
+Installation:
+•	Install the latest Python version, Python 3 64 bit, for instance from “python.org”
+•	Then follow the step:  pip install –u scikit-learn
+
+2.	Pandas: is a fast, powerful, flexible and easy to use open source data analysis and manipulation tool which provides high-performance, 
+easy-to-use data structures and data analysis tools for the Python programming language. Python in collaboration with Pandas is used in a wide range of fields like academic and
+commercial domains including finance, economics, Statistics, analytics, etc.
+Installation: 
+•	Install the latest Python version, Python 3 64 bit, for instance from “python.org”
+•	Then follow the step:  pip install pandas
+
+3.	Numpy: stands for Numerical Python, It is a python library used for working extensively with arrays. Using NumPy, mathematical and logical operations on arrays can be performed.
+It also has functions for working in domain of linear algebra, Fourier transform, and matrices. This is the main reason why NumPy is faster than lists.
+Also it is optimized to work with latest CPU architectures.
+Installation:
+•	Install the latest Python version, Python 3 64 bit, for instance from “python.org”
+•	Then follow the step:  pip install numpy
+
+4.	Matplotlib: Matploitlib is a Python Library used for plotting, this python library provides and objected-oriented APIs for integrating plots into applications. 
+It is a kind of mathematical extension of NumPy in Python  There are several toolkits which are available that extend python matplotlib functionality.
+A wide range of graphs and plots can be made using this like line graph, scatter plot, histogram, 3D plots, line plot, image plot and so on. Several toolkits are also there which extends the functionality of this python library.
+Installation: 
+•	Install the latest Python version, Python 3 64 bit, for instance from “python.org”
+•	Then follow the step:  pip install –U matplotlib
+
+5.	TensorFlow: is also an open source library for numerical computation that makes machine learning faster and easier. Created by Google, TensorFlow is your go to library when you are implementing ML, it bundles together a slew of machine learning and deep learning.
+ How it works: TensorFlow allows developers to create dataflow graphs—structures that describe how data moves through a graph, or a series of processing nodes. Each node in the graph represents a mathematical operation, and each connection or edge between nodes is a multidimensional data array, or tensor. 
+Installation: 
+•	Install the latest Python version, Python 3 64 bit, for instance from “python.org”
+•	Then follow the step:  pip install  tensorflow
+
+6.	Keras: considered as one of the coolest machine learning libraries in Python, Keras provides an easier mechanism to express neural networks. It also provides some of the best utilities for compiling models, processing data-sets, visualization of graphs, and much more. Keras contains numerous implementations of commonly used neural network building blocks such as layers, objectives, activation functions, optimizers and a host of tools to make working with image and text data easier. 
+Installation:
+•	Install the latest Python version, Python 3 64 bit, for instance from “python.org”
+•	Then follow the step:  pip install keras
+•	Other way is to download it from Github using command: 
+git clone https://github.com/keras-team/keras.git
