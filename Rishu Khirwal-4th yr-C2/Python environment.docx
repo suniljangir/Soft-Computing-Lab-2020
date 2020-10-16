@@ -1,0 +1,22 @@
+Python Environments and IDEs
+We want a Python IDE/code editor for:
+a)	Learning
+b)	Development
+
+1.	IDLE
+IDLE is installed by default when we install Python. Major features include the Python shell window, auto-completion, syntax highlighting, smart indentation and a basic integrated debugger. But, not optimum for larger projects. 
+
+2.	Sublime Text
+Popular code editor that supports many languages including Python. Fast, highly customizable and has a huge community. We can install packages such as debugging, auto-completion, code-linting, etc. There are also various packages for scientific development, Django, Flask and so on. 
+
+3.	Atom
+Similar as Sublime Text. 
+
+4.	PyCharm
+IDE for professional developers.
+Provides all major features that a good IDE should provide: 
+code completion, code inspection, error-highlighting and fixes, debugging, version control system and code refactoring. It requires a computer with a larger RAM.  
+
+5.	Jupyter Notebook
+It’s an open source web application that allows us to create and share documents that contain live code, equations, visualizations and narrative text. Uses include: Data cleaning and transformation, numerical simulation, statistical modelling, data visualization, machine learning and much more. 
+
