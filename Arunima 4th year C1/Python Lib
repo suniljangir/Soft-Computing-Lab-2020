@@ -1,0 +1,45 @@
+ Python Libraries :
+ 1.	Numpy
+    NumPy is a python library used for working with arrays. It also has functions for working in domain of linear algebra, fourier transform, and matrices.NumPy was created in 2005 by Travis Oliphant. It is an open source project and you can use it freely.
+    NumPy stands for Numerical Python.
+    Uses-NumPy aims to provide an array object that is up to 50x faster that traditional Python lists. 
+    The array object in NumPy is called ndarray , it provides a lot of supporting functions that make working with ndarray very easy.
+    Arrays are very frequently used in data science, where speed and resources are very important.
+
+   Install: pip install numpy
+
+2.	Pandas
+    Pandas is a machine learning library in Python that provides data structures of high-level and a wide variety of tools for analysis. One of the great feature of this library is the ability to translate complex operations with data using one or two commands. Pandas have so many inbuilt methods for grouping, combining data, and filtering, as well as time-series functionality.
+    Uses- Handling of data. 
+    The Pandas library provides a really fast and efficient way to manage and explore data.
+    Alignment and indexing
+    Handling missing data
+    Cleaning up data
+    Input and output tools
+    
+    Install:pip install pandas
+
+3.	Matplotlib
+Matplotlib is a Python library that uses Python Script to write 2-dimensional graphs and plots. Often mathematical or scientific applications require more than single axes in a representation. This library helps us to build multiple plots at a time
+Uses-Matplotlib is a plotting library for the Python programming language and its numerical mathematics extension NumPy. It provides an object-oriented API for embedding plots into applications using general-purpose GUI toolkits like Tkinter, wxPython, Qt, or GTK+.
+
+ Install:pip install matplotlib
+ 
+4.	OpenCV
+OpenCV, or Open Source Computer Vision is a python package for image processing. It monitors overall functions that are focused on instant computer vision. Although OpenCV has no proper documentation, according to many developers, it is one of the hardest libraries to learn. However, it does provide many inbuilt functions through which you learn Computer vision easily.
+Uses-OpenCV is an ideal image processing package that allows you to both read and write images at the same time. Computer Vision allows you to rebuild, interrupt, and comprehend a 3D environment from its respective 2D environment.
+
+Install:pip install opencv-python
+
+5.	Keras
+Keras is an open-source deep neural network library. It is written in Python. Keras provides an effective inspection policy over detailed networks. Developers who work with Keras are impressed with its user-friendly and modular structure.
+Uses- It is capable of running on Microsoft Cognitive Toolkit, PaidML, TensorFlow, and other platforms as well. 
+This python library features a variety of implementations from neural network forming blocks – functions, layers, optimizers, objectives, and others. 
+
+
+6.	TensorFlow
+TensorFlow is a free, open-source python machine learning library. It is very easy to learn and has a handful collection of useful tools. However, it is not limited to machine learning only; you can also use it for dataflow and programs that are differentiable.
+Uses-
+TensorFlow uses automatic high-performance APIs such as – Keras. It offers an immediate iteration of machine learning models. This library features eager execution, which allows you to create, manipulate machine learning models, and make the debugging way easier. 
+
+
