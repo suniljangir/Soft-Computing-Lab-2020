@@ -1,0 +1,13 @@
+VARIOUS ENVIRONMENTS USED FOR PYTHON PROGRAMMING
+
+Python Interpreter
+The Python interpreter translates the high-level language (i.e. Python) into a low-level language that the machine can understand. In other words, it reads Python programs and carries out their instructions.
+
+IDLE
+Python's default installation also comes with its own IDE called IDLE. IDLE initially stood for Integrated DeveLopment Environment, but this is sometimes extended to Integrated Development and Learning Environment. IDLE is intended to be a simple IDE, which is suitable for beginners learning Python. It includes common IDE features such as auto completion, smart indent, syntax highlighting, debugging, etc. IDLE itself is built 100% in Python (using the tkinter GUI toolkit).
+IDLE can be launched by typing idle or idle3 (or its full path if it hasn't been added to your PATH). It can also be launched by navigating to it and double-clicking on it via your file system's GUI.
+
+Third Party Code Editors and IDEs-Python IDEs
+Some editors and IDEs are built specifically for Python development (but may also support other technologies such as HTML, CSS, JavaScript, etc). Examples of Python IDEs include PyScripter, PyCharm, PyDev (for Eclipse), and Komodo .
+Other Code Editors and IDEs
+Examples of code editors and IDEs that can be used for Python development include Sublime Text, Visual Studio Code, Atom, Vim, Emacs, and Apple's Xcode.
