@@ -1,1 +1,0 @@
-# Soft-Computing-Lab-2020
