@@ -1,0 +1,43 @@
+#Aim: Demonstrate the use of Matplotlib library.
+
+from matplotlib import pyplot as plt
+
+plt.plot([1,2,3],[4,5,1])
+plt.show()
+
+
+x = [5,3,7]
+y = [2,16,5]
+plt.plot(x,y)
+plt.title('Info')
+plt.ylabel('Y axis')
+plt.xlabel('X axis')
+plt.show()
+
+#Style Functions
+style.use('ggplot')
+x = [6,8,10]
+y = [10,16,6]
+x2 = [6,10,11]
+y2 = [6,16,7]
+plt.plot(x,y,'g',label='line one', linewidth=5)
+plt.plot(x2,y2,'c',label='line two',linewidth=5)
+plt.title('Epic Info')
+plt.ylabel('Y axis')
+plt.xlabel('X axis')
+plt.legend()
+plt.grid(True,color='k')
+plt.show()
+
+
+#bar-graph
+
+plt.bar([0.25,1.25,2.25,3.25,4.25],[50,40,70,90,30],
+label="BMW",width=.5)
+plt.bar([.75,1.75,2.75,3.75,4.75],[80,20,30,70,60],
+label="Audi", color='r',width=.5)
+plt.legend()
+plt.xlabel('Days')
+plt.ylabel('Distance (kms)')
+plt.title('Information')
+plt.show()
