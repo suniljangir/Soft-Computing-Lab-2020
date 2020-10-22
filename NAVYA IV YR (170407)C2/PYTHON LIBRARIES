@@ -1,0 +1,78 @@
+Q3. Make a list of any 6 libraries of Python with their functionality in brief. And, also write the steps required for installing any new library in a given environment
+
+1.	TensorFlow
+TensorFlow works like a computational library for writing new algorithms that involve a large number of tensor operations, since neural networks can be easily expressed as computational graphs they can be implemented using TensorFlow as a series of operations on Tensors. Plus, tensors are N-dimensional matrices which represent your data.
+Features of TensorFlow
+TensorFlow is optimized for speed, it makes use of techniques like XLA for quick linear algebra operations.
+1. Responsive Construct
+With TensorFlow, we can easily visualize each and every part of the graph which is not an option while using Numpy or SciKit.
+2. Flexible
+One of the very important Tensorflow Features is that it is flexible in its operability, meaning it has modularity and the parts of it which you want to make standalone, it offers you that option.
+3. Easily Trainable
+It is easily trainable on CPU as well as GPU for distributed computing.
+ USES- All the libraries created in TensorFlow are written in C and C++. However, it has a complicated front-end for Python. Your Python code will get compiled and then executed on TensorFlow distributed execution engine built using C and C++.
+2.	Scikit-Learn
+It is a Python library is associated with NumPy and SciPy. It is considered as one of the best libraries for working with complex data.
+There are a lot of changes being made in this library. One modification is the cross-validation feature, providing the ability to use more than one metric. Lots of training methods like logistics regression and nearest neighbors have received some little improvements.
+Features Of Scikit-Learn
+      1. Cross-validation: There are various methods to check the accuracy of supervised    models on unseen data.
+2. Unsupervised learning algorithms: Again there is a large spread of algorithms in the offering – starting from clustering, factor analysis, principal component analysis to unsupervised neural networks.
+3. Feature extraction: Useful for extracting features from images and text (e.g. Bag of words)
+USES-It contains a numerous number of algorithms for implementing standard machine learning and data mining tasks like reducing dimensionality, classification, regression, clustering, and model selection.
+
+3.	NUMPY
+Numpy is considered as one of the most popular machine learning library in Python.
+TensorFlow and other libraries uses Numpy internally for performing multiple operations on Tensors. Array interface is the best and the most important feature of Numpy.
+Features Of Numpy
+1.	Interactive: Numpy is very interactive and easy to use.
+2.	Mathematics: Makes complex mathematical implementations very simple.
+3.	Intuitive: Makes coding real easy and grasping the concepts is easy.
+4.	Lot of Interaction: Widely used, hence a lot of open source contribution.
+Uses of Numpy?
+This interface can be utilized for expressing images, sound waves, and other binary raw streams as an array of real numbers in N-dimensional.
+For implementing this library for machine learning having knowledge of Numpy is important for full stack developers.
+
+4 . KERAS
+Keras is considered as one of the coolest machine learning libraries in Python. It provides an easier mechanism to express neural networks. Keras also provides some of the best utilities for compiling models, processing data-sets, visualization of graphs, and much more.
+In the backend, Keras uses either Theano or TensorFlow internally. Some of the most popular neural networks like CNTK can also be used. Keras is comparatively slow when we compare it with other machine learning libraries. Because it creates a computational graph by using back-end infrastructure and then makes use of it to perform operations. All the models in Keras are portable.
+Features Of Keras
+•	It runs smoothly on both CPU and GPU.
+•	Keras supports almost all the models of a neural network – fully connected, convolutional, pooling, recurrent, embedding, etc. Furthermore, these models can be combined to build more complex models.
+•	Keras, being modular in nature,  is incredibly expressive, flexible, and apt for innovative research.
+•	Keras is a completely Python-based framework, which makes it easy to debug and explore.
+Where are we using Keras?
+You are already constantly interacting with features built with Keras — it is in use at Netflix, Uber, Yelp, Instacart, Zocdoc, Square, and many others. It is especially popular among startups that place deep learning at the core of their products.
+Keras contains numerous implementations of commonly used neural network building blocks such as layers, objectives, activation functions, optimizers and a host of tools to make working with image and text data easier. 
+Plus, it provides many pre-processed data-sets and pre-trained models like MNIST, VGG, Inception, SqueezeNet, ResNet etc.
+Keras is also a favorite among deep learning researchers, coming in at #2. Keras has also been adopted by researchers at large scientific organizations, in partic,ular CERN and NASA.
+5.	PyTORCH
+PyTorch is the largest machine learning library that allow developers to perform tensor computations wan ith acceleration of GPU, creates dynamic computational graphs, and calculate gradients automatically. Other than this, PyTorch offers rich APIs for solving application issues related to neural networks.
+This machine learning library is based on Torch, which is an open source machine library implemented in C with a wrapper in Lua.
+This machine library in Python was introduced in 2017, and since its inception, the library is gaining popularity and attracting an increasing number of machine learning developers.
+Features Of PyTorch
+Hybrid Front-End
+A new hybrid front-end provides ease-of-use and flexibility in eager mode, while seamlessly transitioning to graph mode for speed, optimization, and functionality in C++ runtime environments.
+
+6.	LIGHT GBM
+Gradient Boosting is one of the best and most popular machine learning library, which helps developers in building new algorithms by using redefined elementary models and namely decision trees. Therefore, there are special libraries which are available for fast and efficient implementation of this method.
+These libraries are LightGBM, XGBoost, and CatBoost. All these libraries are competitors that helps in solving a common problem and can be utilized in almost the similar manner.
+Features of LightGBM
+•	Very fast computation ensures high production efficiency.
+•	Intuitive, hence makes it user friendly.
+•	Faster training than many other deep learning libraries.
+•	Will not produce errors when you consider NaN values and other canonical values.
+What are the applications of LightGBM?
+These library provides provide highly scalable, optimized, and fast implementations of gradient boosting, which makes it popular among machine learning developers. Because most of the machine learning full stack developers won machine learning competitions by using these algorithms.
+
+•	STEPS TO INSTALL LIBRARY IN PYTHON
+1.	First, type Command Prompt in the Windows search box
+2.	Right click on the Windows Command Prompt. Then, select Run as administrator (by running the Command Prompt as an administrator, you’ll avoid any permission issues)
+3.	In the Command Prompt, type “cd\” as this command will ensure that your starting point has only the drive name
+4.	Press Enter. Now you’ll see the drive name of C:\>
+          Locate your Python Scripts path. The Scripts folder can be   found within the Python application folder, where you originally installed Python. In the Command Prompt, type cd followed by your Python Scripts path
+5.	Press Enter
+6.	Now, type the pip install command to install your Python package. The pip install command has the following structureSince in our case, we would like to install the pandas package, then type the following command in the Command Prompt
+7.	Finally, press Enter, and you’ll notice that the package (here it’s pandas) will be installed
+8.	You can quickly check if the package was successfully installed in Python, by opening the Python IDLE and then running the command “import pandas”
+If no errors appear (after you press F5 to run the import command), then the package was successfully installed.
+Mission Accomplished!
