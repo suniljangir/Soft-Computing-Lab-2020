@@ -1,0 +1,13 @@
+OBJECTIVE I 
+
+Aim: Learning of various environment which can be used for python programming.
+Python Interpreter
+The Python interpreter translates the high-level language (i.e. Python) into a low-level language that the machine can understand. In other words, it reads Python programs and carries out their instructions.
+So, you can enter Python code straight into your terminal/command prompt, and the interpreter will interpret the code
+In other words, it reads Python programs and carries out their instructions.
+IDLE
+Python's default installation also comes with its own IDE called IDLE. IDLE initially stood for Integrated DeveLopment Environment, but this is sometimes extended to Integrated Development and Learning Environment. IDLE is intended to be a simple IDE, which is suitable for beginners learning Python. It includes common IDE features such as auto completion, smart indent, syntax highlighting, debugging, etc. IDLE itself is built 100% in Python (using the tkinter GUI toolkit).
+IDLE can be launched by typing idle or idle3 (or its full path if it hasn't been added to your PATH). It can also be launched by navigating to it and double-clicking on it via your file system's GUI.
+
+Third Party Code Editors and IDEs 
+As handy as IDLE can be for getting up and running quickly, most Python developers use a third-party editor or IDE. These tools typically include basic features such as auto code completion, integrated debugging, smart indent, etc. But they can also include other useful features such as source control integration, split views, line numbering, code folding, code templates, unit testing, and more.

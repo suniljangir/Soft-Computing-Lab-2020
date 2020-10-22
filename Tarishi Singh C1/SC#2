@@ -1,0 +1,85 @@
+OBJECTIVE II
+AIM: Write a program to implement all operators in python
+To List Item
+x=90
+y=40
+print(x)
+print(y)
+90
+40
+
+To perform Arithmetic Operation
+Add = a+b
+Sub = a-b
+Muliply =a*b
+divfloat =a/b
+divfloor =a//b
+mod= b%a
+print("\nResult is ")
+print(Add)
+print(Sub)
+print(Multiply)
+print(divfloat)
+print(divfloor)
+print(mod)
+
+
+Result is 
+130
+50
+3600
+2.25
+0
+0
+
+To perform Relational Operators
+A = 10
+B = 20
+print(A)
+print(B)
+A>B
+A<B
+A==B
+A!=B
+A>=B
+A<=B
+10
+20
+True
+
+
+
+
+To perform Logical Operators
+a=True
+b=False
+print(a)
+print(b)
+True
+False
+a and b
+a or b
+not a
+not b
+True
+
+To perform Bitwise Operators
+a=10
+b=20
+print(a)
+print(b)
+print(a & b)
+print(a | b)
+print(~a)
+print(a ^ b)
+print(a >> 6)
+print(a << 6)
+10
+20
+0
+30
+-11
+30
+0
+640
+
