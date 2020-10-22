@@ -1,0 +1,398 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Task 1.ipynb",
+      "provenance": [],
+      "collapsed_sections": [
+        "f6j4GS06NKer",
+        "VWoFFrZpQGfX"
+      ],
+      "toc_visible": true,
+      "authorship_tag": "ABX9TyMYJBaDi1/eloAKF4mC9khz",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/MahimaFulwaria/Soft-Computing-Lab-2020/blob/master/Mahima%20Fulwaria-C2-4th%20year\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "f6j4GS06NKer"
+      },
+      "source": [
+        "# **1. Learning of various environments which can be used for Python programming.**"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "fXM1nDG3MLpl"
+      },
+      "source": [
+        "1. JUPYTER:\n",
+        "    The Jupyter Notebook is an open-source web application that allows you to create\n",
+        "    and share documents that contain live code, equations, visualizations and explanatory text.\n",
+        "    Uses include: data cleaning and transformation, numerical simulation, statistical modeling, machine learning and much more.\n",
+        "\n",
+        "2. SPYDER:\n",
+        "   Spyder is an open source cross-platform integrated development environment (IDE) for scientific programming in the Python\n",
+        "   language.Spyder uses Qt for its GUI, and is designed to use either of the PyQt or PySide Python bindings.    \n",
+        "\n",
+        "3. PyCHARM:\n",
+        "   PyCharm is an integrated development environment used in computer programming, specifically for the Python language.\n",
+        "   To start developing in Python with PyCharm you need to download and install Python from python.org depending on your platform. \n",
+        "\n",
+        "4. GOOGLE COLAB:\n",
+        "   Colaboratory, or “Colab” for short, is a product from Google Research. Colab allows anybody to write and execute arbitrary python\n",
+        "   code through the browser, and is especially well suited to machine learning, data analysis and education.      \n",
+        "  "
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "VWoFFrZpQGfX"
+      },
+      "source": [
+        "# **2. Operators in Python**"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "fJzX09R6QaOz",
+        "outputId": "80e1088d-d7d6-4c47-a58a-de70d1b6cfc7",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 34
+        }
+      },
+      "source": [
+        "## 1. Arithmetic Operators:\n",
+        "x=2\n",
+        "y=1\n",
+        "a=x+y\n",
+        "b=x-y\n",
+        "c=x*y\n",
+        "d=x/y\n",
+        "e=x%y\n",
+        "f=x**y\n",
+        "print(a,\",\",b,\",\",c,\",\",d,\",\",e,\",\",f)"
+      ],
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "3 , 1 , 2 , 2.0 , 0 , 2\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "UaHmQsOkQ7E4",
+        "outputId": "29ba8607-cab7-4a06-bf05-d83cc2773e8f",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 118
+        }
+      },
+      "source": [
+        "## 2. Relational Operators\n",
+        "a = 13\n",
+        "b = 33   \n",
+        "print(a > b) \n",
+        "print(a < b) \n",
+        "print(a == b) \n",
+        "print(a != b) \n",
+        "print(a >= b) \n",
+        "print(a <= b) "
+      ],
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "False\n",
+            "True\n",
+            "False\n",
+            "True\n",
+            "False\n",
+            "True\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "WXOpYWJkTD8h",
+        "outputId": "c0d4ec7f-e4b4-48a8-a5e9-7eadece2c05b",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 67
+        }
+      },
+      "source": [
+        "## 3. Logical Operators\n",
+        "a = True\n",
+        "b = False \n",
+        "print(a and b)  \n",
+        "print(a or b)   \n",
+        "print(not a) "
+      ],
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "False\n",
+            "True\n",
+            "False\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "iTp2q5iGTXPR",
+        "outputId": "619d5282-86b4-4f20-bc83-984d2bcca48e",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 118
+        }
+      },
+      "source": [
+        "## 4. Bitwise Operators\n",
+        "a = 10\n",
+        "b = 4   \n",
+        "print(a & b) \n",
+        "print(a | b)   \n",
+        "print(~a)  \n",
+        "print(a ^ b)   \n",
+        "print(a >> 2)   \n",
+        "print(a << 2)\n"
+      ],
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "0\n",
+            "14\n",
+            "-11\n",
+            "14\n",
+            "2\n",
+            "40\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "j6N77GgCTz7O",
+        "outputId": "383df6f3-3761-4c0c-de5b-a782893b4b85",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 134
+        }
+      },
+      "source": [
+        "## 5. Assignment Operators\n",
+        "a = 21\n",
+        "b = 10\n",
+        "c = 0\n",
+        "c = a + b\n",
+        "print(\"Value of c is \", c)\n",
+        "c += a\n",
+        "print(\"Value of c is \", c) \n",
+        "c *= a\n",
+        "print(\"Value of c is \", c) \n",
+        "c /= a \n",
+        "print(\"Value of c is \", c) \n",
+        "c  = 2\n",
+        "c %= a\n",
+        "print(\"Value of c is \", c)\n",
+        "c **= a\n",
+        "print(\"Value of c is \", c)\n",
+        "c //= a\n",
+        "print(\"Value of c is \", c)"
+      ],
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "Value of c is  31\n",
+            "Value of c is  52\n",
+            "Value of c is  1092\n",
+            "Value of c is  52.0\n",
+            "Value of c is  2\n",
+            "Value of c is  2097152\n",
+            "Value of c is  99864\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "U6QoycdiVwV_"
+      },
+      "source": [
+        ""
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "VT4INNMOWPe5"
+      },
+      "source": [
+        "# **3. 6 Libraries of python and their functionalities**"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "_hcMvW30WjIv"
+      },
+      "source": [
+        "## 1. Matplotlib:\n",
+        "      Matplotlib is a Python library that uses Python Script to write\n",
+        "      2-dimensional graphs and plots. Often mathematical or scientific\n",
+        "      applications require more than single axes in a representation.\n",
+        "      This library helps us to build multiple plots at a time. You can, however, \n",
+        "      use Matplotlib to manipulate different characteristics of figures as well. \n",
+        "\n",
+        "\n",
+        "## 2. Numpy:   \n",
+        "      Numpy is a popular array – processing package of Python. It provides good\n",
+        "      support for different dimensional array objects as well as for matrices. \n",
+        "      Numpy is not only confined to providing arrays only, but it also provides \n",
+        "      a variety of tools to manage these arrays. It is fast, efficient, and really \n",
+        "      good for managing matrice and arrays.\n",
+        "\n",
+        "## 3. OpenCV:\n",
+        "      OpenCV, a.k.a Open Source Computer Vision is a python package for image processing. \n",
+        "      It monitors overall functions that are focused on instant computer vision. Although \n",
+        "      OpenCV has no proper documentation, according to many developers, it is one of the \n",
+        "      hardest libraries to learn. However, it does provide many inbuilt functions through \n",
+        "      which you learn Computer vision easily.\n",
+        "\n",
+        "## 4. Scipy:\n",
+        "      Scipy is an open-source python library that is used for both scientific and technical \n",
+        "      computation. It is a free python library. And very suitable for machine learning. However, \n",
+        "      computation is not the only task that makes scipy special. It is also very popular for image \n",
+        "      manipulation, as well.      \n",
+        "\n",
+        "## 5. Pandas:\n",
+        "      Pandas is a python software package. It is a must to learn for data-science and dedicatedly \n",
+        "      written for Python language. It is a fast, demonstrative, and adjustable platform that offers \n",
+        "      intuitive data-structures. You can easily manipulate any type of data such as – structured or \n",
+        "      time-series data with this amazing package.\n",
+        "\n",
+        "## 6. Scikit Learn:\n",
+        "      Scikit learn is a simple and useful python machine learning library. It is written in python, \n",
+        "      cython, C, and C++. However, most of it is written in the Python programming language. It is \n",
+        "      a free machine learning library. It is a flexible python package that can work in complete \n",
+        "      harmony with other python libraries and packages such as Numpy and Scipy.\n",
+        "\n",
+        "      "
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "3m3ANqf_fQ4O"
+      },
+      "source": [
+        "## Installing Libraries:\n",
+        "\n",
+        "1.Type Command Prompt in the Windows search box.\n",
+        "2.Right click on the Windows Command Prompt. \n",
+        "Then, select Run as administrator (by running the Command Prompt as an administrator, you’ll avoid any permission issues).\n",
+        "3.In the Command Prompt, type “cd\\” as this command will ensure that your starting point has only the drive name.\n",
+        "4.Press Enter. Now you’ll see the drive name of C:\\\n",
+        "5.Locate your Python Scripts path. The Scripts folder can be found within the Python application folder, where you originally installed Python.\n",
+        "6.In the Command Prompt, type cd followed by your Python Scripts path.\n",
+        "7.Press Enter.\n",
+        "8. Now, type the pip install command to install your Python package. The pip install command has the following structure:\n",
+        "                                             pip install package name\n",
+        "9.Finally, press Enter, and you’ll notice that the package (here it’s pandas) will be installed.\n",
+        "10.You can quickly check if the package was successfully installed in Python, by opening the \n",
+        "Python IDLE and then running the command “import pandas”\n",
+        "\n"
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "rs4k0lgBZLpy"
+      },
+      "source": [
+        "## Importing above libraries:\n",
+        "\n",
+        "import matplotlib.pyplot as plt\n",
+        "%matplotlib inline\n",
+        "\n",
+        "import numpy as np\n",
+        "\n",
+        "import cv2\n",
+        "\n",
+        "import scipy\n",
+        "\n",
+        "import pandas as pd\n",
+        "\n",
+        "import sklearn\n",
+        "\n",
+        "\n"
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "44mRaadGb8AK"
+      },
+      "source": [
+        ""
+      ],
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
