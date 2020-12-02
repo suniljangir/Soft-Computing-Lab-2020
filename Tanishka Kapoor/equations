@@ -1,0 +1,35 @@
+"""
+AIM: Plot the graph for following equations	
+
+y={1 x<10 0   else 
+"""
+import matplotlib.pyplot as plt                   
+x=[num for num in range(0,20)]
+y=[]
+for i in x:
+    if i>=10:
+y.append(1)
+    else:
+y.append(0)
+plt.plot(x,y)
+plt.xlabel("x axis")
+plt.ylabel("y axis")
+plt.title("y=1 if x>=10 else y=0")
+plt.show()
+
+
+#2.y=eax for different values of a.
+
+import numpy as np
+import matplotlib.pyplot as plt
+num=[num for num in range(0,10)]
+a=2 #constant value
+x=np.array(num)*2
+y=np.exp(x)
+plt.plot(x,y)
+plt.xlabel("x axis")
+plt.ylabel("y axis")
+plt.title("y=e**ax")
+plt.show()
+
+
